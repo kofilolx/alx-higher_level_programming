@@ -1,7 +1,4 @@
 #!/usr/bin/python3
-
-"""isupper class definition"""
-
 def uppercase(str):
     for j in str:
         j = ord(j)
