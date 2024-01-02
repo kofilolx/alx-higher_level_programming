@@ -8,7 +8,7 @@
 
 int check_cycle(listint_t *list)
 {
-    listint_t *slow, *fast; /* two traversals through the list */
+	listint_t *slow, *fast; /* two traversals through the list */
 
 	slow = list;
 	fast = list;
@@ -19,11 +19,11 @@ int check_cycle(listint_t *list)
 		fast = fast->next->next; /* move throughthe list 2 steps at a time*/
 
 		/* if the pointers meet at any point, there is a cycle, return 1 */
+
 		if (slow == fast)
 			return (1);
-
 	}
 
 	/* if there is no cycle, return 0 */
-    return (0);
+	return (0);
 }
