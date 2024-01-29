@@ -2,11 +2,14 @@
 
 ## Overview
 
-This project is aimed at implementing Test-driven Development (TDD) practices in software development. Test-driven development is a methodology in which tests are written before the actual code, ensuring that the code meets the specified requirements and remains maintainable through automated testing.
+This project is aimed at implementing Test-driven Development (TDD) practices in software development.
+Test-driven development is a methodology in which tests are written before the actual code,
+	ensuring that the code meets the specified requirements and remains maintainable through automated testing.
 
 ## Motivation
 
-The motivation behind this project is to promote software quality, reliability, and maintainability by incorporating TDD into the development process. By writing tests first, developers can clarify the expected behavior of the code, design modular and loosely coupled components, and catch bugs early in the development cycle.
+The motivation behind this project is to promote software quality, reliability, and maintainability by incorporating TDD into the development process.
+By writing tests first, developers can clarify the expected behavior of the code, design modular and loosely coupled components, and catch bugs early in the development cycle.
 
 ## Features
 
