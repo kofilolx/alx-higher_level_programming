@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-"""0-main"""
+""" 0-main """
 from models.base import Base
 
-if__name == "__main__":
+if __name__ == "__main__":
 
     b1 = Base()
     print(b1.id)
@@ -13,7 +13,7 @@ if__name == "__main__":
     b3 = Base()
     print(b3.id)
 
-    b4 - Base(12)
+    b4 = Base(12)
     print(b4.id)
 
     b5 = Base()
